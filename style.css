@@ -1,0 +1,172 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: #f6c66c;
+    justify-content: center;
+    align-content: center;
+    height: 80vh;
+    background-size: cover;
+}
+scrollbar-width{
+    border-radius: 10px;
+}
+main {
+    display: flex;
+    margin-top: 6%;
+    justify-content: center;
+    align-content: center;
+}
+
+.My-wallets {
+    display: flex;
+    background-color: #f1eff1;
+    width: 20rem;
+    padding: 2rem 3rem 1rem 3rem;
+    flex-direction: column;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.My-wallets:hover{
+    overflow-y: scroll;
+}
+
+.My-wallet {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+.wallets {
+    display: flex;
+    flex-direction: column;
+    background-color: #fffeff;
+    width: 15rem;
+    align-content: center;
+    justify-content: first baseline;
+    border: #f2f0f2;
+    border-radius: 3px;
+    padding: 10px 10px 10px 10px;
+}
+
+.wallets:hover {
+    border: solid #7f89c0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.activist {
+    border: solid #7f89c0;
+}
+
+.My-wallet p {
+    font-size: 20px;
+    flex-grow: 1;
+}
+.wallets .logo {
+    object-fit: contain;
+    height: 2.5rem;
+    margin-right: 10rem;
+}
+
+.wallets p, .wallets .date {
+    color: #6f6766;
+    font-weight: 500;
+}
+
+.wallets .date {
+    font-size: smaller;
+    margin-top: -15px;
+}
+
+.wallets .active {
+    background-color: #fffeff;
+    border: solid #7f89c0;
+}
+
+.Current-balance {
+    background-color: #fffeff;
+    border-radius: 0px 4px 4px 0px;
+    width: 32rem;
+    padding: 2rem 2.5rem 0rem 3rem;
+    overflow-y: hidden;
+}
+
+.Current-balance:hover{
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+background-color: #6f6766;
+border-radius: 20px;
+}
+.current {
+    display: flex;
+    align-items: center;
+    font-size: 21px;
+}
+
+.current p {
+    flex-grow: 1;
+}
+
+.current span, .current sup {
+    font-weight: 600;
+}
+.current sup {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+hr {
+    color: #f1eff1;
+    opacity: 50%;
+    margin-top: 20px;
+}
+
+.balances {
+    display: flex;
+    align-items: center;
+}
+
+.balances img {
+    height: 15px;
+}
+
+.balances .apple {
+    font-size: larger;
+    font-weight: 600;
+}
+
+.balances .electronics {
+    color: #adabac;
+    font-size: smaller;
+    font-weight: 500;
+}
+
+.balances .Gadgets {
+    flex-grow: 1;
+    margin-left: 2.5rem;
+}
+
+.price {
+    color: #7e8cbe;
+    font-weight: 1000;
+}
+
+.active{
+    color: #81c657;
+}
+
